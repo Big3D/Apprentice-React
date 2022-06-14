@@ -1,7 +1,16 @@
+import Navbar from "./components/nav/Nav";
+import Main from "./components/main/Main";
+import Footer from "./components/footer/Footer";
+
+
 function App() {
   return (
+
     <div className='App'>
-      Our Work
+      <Navbar/>
+      <Main/>
+      <Footer/>
+      {/* Our Work
       About Us
       Contact
 
@@ -49,7 +58,7 @@ function App() {
 
       Our Work
       About Us
-      Contact
+      Contact */}
     </div>
   );
 }

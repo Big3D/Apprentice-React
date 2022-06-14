@@ -1,0 +1,32 @@
+.navbar{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    top: 0;
+    justify-content: space-between;
+    list-style-type: none;
+    background-color: rgba(255, 255, 255, .9);
+    padding: 10px 20px 10px 20px;
+}
+
+.logoImage img{
+    padding: 2px 0 2px 25px;
+    height: 40px
+}
+
+.rightNav{
+    display: inline-flex;
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.rightLink{
+    text-align: center;
+    margin: 5px 15px 2px 15px;
+    font-size: 20px;
+    font-weight: bold;
+}

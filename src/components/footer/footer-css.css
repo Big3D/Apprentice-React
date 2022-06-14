@@ -1,0 +1,36 @@
+.footDiv{
+    display: flex;
+    justify-content: space-around;
+    background-color: gray;
+    height: 250px;
+    text-align: center;
+    width: 100%;
+    list-style-type: none;
+    margin: auto;
+    margin-top: 75px;
+    padding: 100px 0;
+}
+
+.leftFoot{
+    list-style-type: none;
+}
+
+.leftFootLink{
+    padding: 5px;
+    color: white;
+}
+
+.rightFoot{
+    text-align: center;
+    display: inline-flex;
+}
+
+.rightFootLink svg{
+    height: 50px;
+    width: 50px;
+    fill: white;
+    padding: 5px;
+    margin: 15px;
+    border: 1px solid white;
+    border-radius: 25px;
+}
